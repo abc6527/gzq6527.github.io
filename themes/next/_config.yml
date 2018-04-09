@@ -93,7 +93,7 @@ index_with_subtitle: false
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
   home: / || home
-  about: /about/ || user
+  #about: /about/ || user
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
@@ -144,12 +144,12 @@ social_icons:
   transition: false
 
 # Blog rolls
-links_icon: link
-links_title: Links
-links_layout: block
-#links_layout: inline
-#links:
-  #Title: http://example.com/
+#links_icon: link
+#links_title: Links
+#links_layout: block
+links_layout: inline
+links:
+  大猿小班化高端java培训: http://dayuanit.com/
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -230,9 +230,9 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
-  totalcount: false
+  wordcount: false 
+  min2read: false 
+  totalcount: false 
   separated_meta: true
 
 # Wechat Subscriber
